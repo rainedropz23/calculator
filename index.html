@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<main class="calc">
+  <div class="display" id="display" aria-live="polite">0</div>
+  <div class="keys" id="keys">
+    <button class="clear" data-a="clear" aria-label="Clear">C</button>
+    <button class="fn" data-a="back" aria-label="Backspace">⌫</button>
+    <button class="op" data-a="op" data-v="/">/</button>
+    <button class="op" data-a="op" data-v="×">×</button>
+
+    <button data-a="num" data-v="7">7</button>
+    <button data-a="num" data-v="8">8</button>
+    <button data-a="num" data-v="9">9</button>
+    <button class="op" data-a="op" data-v="−">−</button>
+
+    <button data-a="num" data-v="4">4</button>
+    <button data-a="num" data-v="5">5</button>
+    <button data-a="num" data-v="6">6</button>
+    <button class="op" data-a="op" data-v="+">+</button>
+
+    <button data-a="num" data-v="1">1</button>
+    <button data-a="num" data-v="2">2</button>
+    <button data-a="num" data-v="3">3</button>
+    <button class="eq" data-a="eq">=</button>
+
+    <button class="fn" data-a="sign" aria-label="Toggle positive or negative">±</button>
+    <button data-a="num" data-v="0">0</button>
+    <button data-a="dot">.</button>
+  </div>
+</main>
+
+<script src="calc.js"></script>
+</body>
+</html>
